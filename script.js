@@ -75,7 +75,7 @@ for(var i=0;i<operator.length;i++){
 
 var number = document.getElementsByClassName("number");
 
-for(var i=0;i<operator.length;i++){
+for(var i=0;i<number.length;i++){
     number[i].addEventListener('click',function(){
         
         var output=reverseNumberFormat(getOutput());
